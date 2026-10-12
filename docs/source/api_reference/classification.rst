@@ -116,6 +116,7 @@ Dictionary-based
     :template: class.rst
 
     BOSSVSClassifierPyts
+    BORFClassifier
     BOSSEnsemble
     ContractableBOSS
     IndividualBOSS

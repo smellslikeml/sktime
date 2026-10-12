@@ -4,6 +4,7 @@ __all__ = [
     "IndividualBOSS",
     "BOSSEnsemble",
     "BOSSVSClassifierPyts",
+    "BORFClassifier",
     "ContractableBOSS",
     "TemporalDictionaryEnsemble",
     "IndividualTDE",
@@ -13,6 +14,7 @@ __all__ = [
 
 from sktime.classification.dictionary_based._boss import BOSSEnsemble, IndividualBOSS
 from sktime.classification.dictionary_based._boss_pyts import BOSSVSClassifierPyts
+from sktime.classification.dictionary_based._borf import BORFClassifier
 from sktime.classification.dictionary_based._cboss import ContractableBOSS
 from sktime.classification.dictionary_based._muse import MUSE
 from sktime.classification.dictionary_based._tde import (
