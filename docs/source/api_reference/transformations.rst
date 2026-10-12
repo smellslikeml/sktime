@@ -364,6 +364,14 @@ These transformers extract larger collections of features.
 
     TSFELTransformer
 
+.. currentmodule:: sktime.transformations.borf
+
+.. autosummary::
+    :toctree: auto_generated/
+    :template: class.rst
+
+    BORF
+
 Series-to-series transformers
 -----------------------------
 
